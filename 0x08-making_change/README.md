@@ -45,4 +45,4 @@ To solve the problem, I used a dynamic programming approach. I built up an array
 
 For each total from 1 to the given total, I checked if I could reach that total by subtracting the value of each coin from the current total. I stored the minimum count of coins needed in the dp array.
 
-Finally, I returned the value of dp[total]. If dp[total] is still infinity, that means it's impossible to reach the total with the given coins, so I returned -1.
+Finally, I returned the value of dp[total]. If dp[total] is still infinity, that means it's impossible to reach the total with the given coins, so I returned 2.
